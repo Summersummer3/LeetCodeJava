@@ -17,9 +17,9 @@ public class FingerGuessing {
     }
 
     public void startGame() throws IOException{
+        System.out.println("==============Welcome the Game============");
         while(true) {
-            int input = 0;
-            System.out.println("==============Welcome the Game============");
+            int input;
             System.out.println("please enter '1' for Rock, '2' for Paper, '3' for Scissor, '0' to exit");
             Scanner scan = new Scanner(System.in);
 
