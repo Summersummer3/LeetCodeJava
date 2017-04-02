@@ -51,7 +51,6 @@ public class LambdaTest {
                 System.out.println(str + " ");
             }
         });
-
     }
 
     public static void filter(String[] strs, Predicate<String> condition){
