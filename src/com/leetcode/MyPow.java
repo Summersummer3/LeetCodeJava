@@ -37,7 +37,7 @@ public class MyPow {
     public Stack<Integer> decimalToBinary(int n){
         int a;
         int flag = 1;
-        Stack<Integer> stack= new Stack<Integer>();
+        Stack<Integer> stack= new Stack<>();
         if(n < 0){
             if(n == -2147483648) {
                 n = n - 1;
