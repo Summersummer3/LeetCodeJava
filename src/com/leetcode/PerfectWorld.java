@@ -41,6 +41,7 @@ public class PerfectWorld {
                 maxPos = k;
             }
         }
+        System.out.println(max);
         int l = maxPos;
         lst.add(arr[maxPos]);
         while(flags[l] != -1){
